@@ -3,7 +3,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-    // padding-top: 20px;
+    padding-top: 20px;
 }
 
 .mainMenu nav ul{
@@ -17,4 +17,20 @@ header {
     line-height: 29px;
     letter-spacing: 1px;
 
+}
+
+.headerText h1 {
+    font-family: Walter Turncoat;
+    color: $grey;
+    font-size: 145.2px;
+    margin: 0;
+    padding-top: 200px;
+}
+
+.skateKid {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 100px;
+    right: 100px;
 }
