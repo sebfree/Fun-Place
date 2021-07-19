@@ -2,7 +2,7 @@ header {
     background-image: url(../funplace-assets/home-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 80vh;
     padding-top: 20px;
 }
 
@@ -19,18 +19,23 @@ header {
 
 }
 
+.headerText {
+    // height: 80%;
+    padding-top: 250px;
+}
+
 .headerText h1 {
     font-family: Walter Turncoat;
     color: $grey;
-    font-size: 145.2px;
+    font-size: 14rem;
     margin: 0;
-    padding-top: 200px;
+    
 }
 
 .skateKid {
     position: absolute;
     // height: 50%;
-    width: 35%;
-    bottom: -90px;
+    width: 40%;
+    bottom: 50px;
     right: 0px;
 }
