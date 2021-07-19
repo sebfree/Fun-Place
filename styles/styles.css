@@ -1,8 +1,46 @@
-header {
-  background-color: purple;
+/*<!--general ruleszzzzz-->*/
+html {
+  font-size: 62.5%;
 }
 
-.mainMenu {
-  background-color: blue;
+.wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  font-size: 20px;
+  font-family: roboto bold;
+}
+
+header {
+  background-image: url(../funplace-assets/home-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.mainMenu nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 20px;
+}
+
+li {
+  padding-right: 20px;
+  color: #f3faff;
+  list-style-type: none;
+  line-height: 29px;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=styles.css.map */
