@@ -55,10 +55,9 @@ li {
 
 .skateKid {
   position: absolute;
-  height: 50%;
-  width: 50%;
-  top: 100px;
-  right: 100px;
+  width: 35%;
+  bottom: -90px;
+  right: 0px;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
@@ -240,5 +239,11 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
           clip-path: inset(100%);
   clip: rect(0 0 0);
   overflow: hidden;
+}
+
+.section-1 {
+  background-color: #03697c;
+  height: 100rem;
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
