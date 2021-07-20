@@ -255,6 +255,11 @@ h2 {
   color: #f3faff;
   font-size: 4rem;
   line-height: 99.8px;
+  margin-bottom: 0;
+}
+
+p {
+  padding-left: 66px;
 }
 
 .section-1-flex {
