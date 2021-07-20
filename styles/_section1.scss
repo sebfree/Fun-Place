@@ -21,3 +21,19 @@
 .about-us-box {
     width: 50%;
 }
+
+.fas {
+    background-color: $aqua;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 3rem;
+
+}
+
+.fa-user-friends, .fa-map-marker-alt, .fa-copy, .fa-phone  {
+    color: $darkBlue;
+}
+
